@@ -18,6 +18,11 @@ public class TestCircleRectangle1 {
         System.out.println("\nA pentagon " + pentagon.toString());
         System.out.println("The area is " + pentagon.getArea());
         System.out.println("The perimeter is " + pentagon.getPerimeter());
+
+        GeometricObject1 pentagon1 = new Pentagon(5, 2);
+        System.out.println("\nA pentagon " + pentagon.toString());
+        System.out.println("The area is " + pentagon.getArea());
+        System.out.println("The perimeter is " + pentagon.getPerimeter());
     }
 
 }

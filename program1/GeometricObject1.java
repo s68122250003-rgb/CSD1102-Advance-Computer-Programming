@@ -60,7 +60,6 @@ public class GeometricObject1 {
      * Return a string representation of this object
      */
     public String toString() {
-        return "created on " + dateCreated + "\ncolor: " + color
-                + " and filled: " + filled;
+        return "created on " + dateCreated + "\ncolor: " + color + " and filled: " + filled;
     }
 }
